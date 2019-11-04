@@ -1,0 +1,29 @@
+.clients {
+    background-color: #f1f8ff;
+    padding: 95px 0 115px 0;
+}
+.clients-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    align-items: center;
+    padding: 0 45px;
+}
+
+.clients-img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+@media (max-width: 992px) {
+    .clients {
+        padding: 40px 0 0 0;
+    }
+    .clients-block {
+        flex-direction: column;
+    }
+    .inner-clients-block {
+        margin-bottom: 40px;
+    }
+}
